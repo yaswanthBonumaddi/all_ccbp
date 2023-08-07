@@ -1,0 +1,208 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.sub-container {
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .sub-container {
+    max-width: 1140px;
+  }
+}
+.intro-container {
+  background-image: url('https://res.cloudinary.com/do4qwwms8/image/upload/v1626263091/Money%20Manager/money-manager-header_rxlcrn.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 25vh;
+  border-radius: 15px;
+  margin-top: 60px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .intro-container {
+    align-items: flex-start;
+    padding: 48px;
+  }
+}
+.heading {
+  color: #475569;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+.heading-tag {
+  color: #475569;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading-tag {
+    font-size: 18px;
+  }
+}
+.tag-span {
+  color: #0b69ff;
+  font-weight: 500;
+}
+.transaction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .transaction-container {
+    flex-direction: row;
+  }
+}
+
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 60vh;
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-form {
+    width: 40%;
+    padding-right: 43px;
+    padding-left: 48px;
+  }
+}
+.form-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+@media screen and (min-width: 768px) {
+  .form-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.label {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.form-input {
+  color: #1e293b;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  border: 1px solid #d7dfe9;
+  border-radius: 2px;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 7px;
+  width: 70px;
+  height: 40px;
+  border: none;
+  padding-left: 22px;
+  padding-top: 10px;
+  padding-right: 22px;
+  padding-bottom: 10px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.history-container {
+  width: 100%;
+  min-height: 60vh;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+  .history-container {
+    width: 55%;
+    min-height: 60vh;
+    padding-top: 23px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin-top: 0px;
+    margin-left: 32px;
+  }
+}
+.transactions-table-container {
+  height: 100%;
+  border-radius: 8px;
+}
+.transactions-table {
+  padding-left: 0;
+  margin: 0px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .table-header {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.table-header-cell {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 30%;
+  border-right: none;
+}
+
+@media screen and (min-width: 768px) {
+  .table-header-cell {
+    font-size: 16px;
+  }
+}

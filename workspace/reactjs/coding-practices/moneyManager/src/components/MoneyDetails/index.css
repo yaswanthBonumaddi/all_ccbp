@@ -1,0 +1,102 @@
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .money-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .balance-container {
+    width: 28%;
+    height: 20vh;
+  }
+}
+.image {
+  height: 60px;
+  width: 60px;
+  margin: 20px;
+}
+.heading-text {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin: 0px;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+@media screen and (min-width: 768px) {
+  .heading-text {
+    font-size: 19px;
+  }
+}
+.value {
+  color: #475569;
+  font-size: 18px;
+  line-height: 1.3;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .value {
+    font-size: 26px;
+    font-weight: 400;
+  }
+}
+.income-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #cffafe;
+  width: 100%;
+  border: 1px solid #06b6d4;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .income-container {
+    width: 30%;
+    margin-right: 0px;
+    height: 20vh;
+  }
+}
+
+.expenses-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ede9fe;
+  width: 100%;
+  min-width: 200px;
+  border: 1px solid #7c3aed;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .expenses-container {
+    width: 30%;
+    margin-right: 0px;
+    height: 20vh;
+  }
+}

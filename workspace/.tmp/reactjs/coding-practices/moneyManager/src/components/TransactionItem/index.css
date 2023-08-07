@@ -1,0 +1,46 @@
+.transaction-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .transaction-list-item {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.input {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  .input {
+    font-size: 14px;
+    width: 25%;
+  }
+}
+.button-container {
+  display: flex;
+  width: 10%;
+}
+.delete-button {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.delete-image {
+  background: transparent;
+  height: 20px;
+  width: 20px;
+  border: none;
+  outline: none;
+  align-self: center;
+  margin-right: 10px;
+}
